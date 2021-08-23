@@ -1,2 +1,2 @@
 # sriniketh.github.io
-Personal website powered by Hugo.
+Personal website powered by [Hugo](https://gohugo.io/).
