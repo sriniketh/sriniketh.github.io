@@ -1,0 +1,39 @@
+baseURL: 'https://www.sriniketh.dev/'
+languageCode: 'en-us'
+title: 'Sriniketh Ramachandran'
+theme: "PaperMod"
+
+languages:
+    en:
+        languageName: "English"
+        weight: 1
+        menu:
+            main:
+                - name: About
+                  url: pages/about_me
+                  weight: 5
+                - name: Work
+                  url: pages/work
+                  weight: 5
+                - name: Posts
+                  url: pages/posts
+                  weight: 5
+
+params:
+  defaultTheme: auto
+  ShowReadingTime: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+
+  profileMode:
+    enabled: true
+    title: "Hi there 👋"
+    subtitle: "Developing.."
+
+  socialIcons:
+        - name: github
+          url: "https://github.com/sriniketh"
+        - name: linkedin
+          url: "https://www.linkedin.com/in/sriniketh/"
+        - name: twitter
+          url: "https://twitter.com/CharPointer"
